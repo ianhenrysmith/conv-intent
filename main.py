@@ -28,12 +28,12 @@ tools = [
     ),
     Tool(
         name = "Answer FAQ",
-        func = lambda query: log_report_query(query),
+        func = lambda query: log_faq_query(query),
         description = "use to answer a general question that can be backed up by support documentation",
     ),
     Tool(
         name = "Run Action",
-        func = lambda query: log_report_query(query),
+        func = lambda query: log_action_query(query),
         description = "use when you need to carry out an action",
     ),
 ]
